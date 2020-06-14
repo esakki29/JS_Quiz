@@ -4,3 +4,10 @@ arr.forEach(val => console.log(val));
 
 var spreadArr = [...arr];
 spreadArr.forEach( val => console.log(val));
+
+/* same principle */
+const arr = new Array(10);
+arr.forEach(val => console.log(val));
+
+var spreadArr = [...arr];
+spreadArr.forEach( val => console.log(val));
